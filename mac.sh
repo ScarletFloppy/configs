@@ -6,4 +6,5 @@ sh -c "$(curl -fsSL https://raw.github.com/ScarletFloppy/configs/zshrc > ~/.zshr
 sudo echo "/bin/zsh" >> /etc/shells
 sudo echo "/usr/local/bin/zsh" >> /etc/shells
 sudo chsh -s /usr/local/bin/zsh
+defaults write com.apple.Terminal "Default Window Settings" Pro
 exit 0
