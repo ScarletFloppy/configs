@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
+	"theme": "Nexus.sublime-theme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"match_brackets_angle": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": false
+}
