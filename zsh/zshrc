@@ -1,0 +1,15 @@
+# oh-my-zsh config -- v0.1
+export ZSH=~/.oh-my-zsh
+ZSH_THEME="custom-lambda"
+CASE_SENSITIVE="false"
+HYPHEN_INSENSITIVE="false"
+DISABLE_AUTO_UPDATE="false" # bi-weekly schedule
+export UPDATE_ZSH_DAYS=13
+DISABLE_LS_COLORS="false"
+DISABLE_AUTO_TITLE="false"
+ENABLE_CORRECTION="true"
+COMPLETION_WAITING_DOTS="true"
+DISABLE_UNTRACKED_FILES_DIRTY="true"
+plugins=(git)
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin"
+source $ZSH/oh-my-zsh.sh
