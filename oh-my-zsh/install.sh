@@ -1,10 +1,10 @@
 #!/bin/bash
 sname='oh-my-zsh'
-themes=~/$sname/themes
+themes=~/.$sname/themes
 branch='master'
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ScarletFloppy/configs/$branch/$sname/zshrc > ~/.zshrc)"
 [ -d $themes ] || mkdir -p $themes
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ScarletFloppy/configs/$branch/$sname/custom-lambda.zsh-theme > ~/$sname/themes/custom-lambda.zsh-theme)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ScarletFloppy/configs/$branch/$sname/custom-lambda.zsh-theme > ~/$themes/custom-lambda.zsh-theme)"
 sudo bash -c "echo "/bin/zsh" >> /etc/shells"
 sudo bash -c "echo "/usr/local/bin/zsh" >> /etc/shells"
 chsh -s /usr/local/bin/zsh
